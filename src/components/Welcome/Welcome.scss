@@ -1,0 +1,110 @@
+
+.divider {
+  border-top: 1px solid silver !important;
+  width: 25%;
+}
+
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: goldenrod; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 30px; /* Place content 60px from the top */
+  transition: 0.5s;/* 0.5 second transition effect to slide in the sidenav */
+  text-align: center;
+  background: -moz-linear-gradient(top, #daa520 0%, #e3e4e5 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #daa520 0%,#e3e4e5 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #daa520 0%,#e3e4e5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#daa520', endColorstr='#e3e4e5',GradientType=0 ); /* IE6-9 */
+
+}
+
+#trigger,.i_trigger{
+  /*font-size: 10.5em;*/
+  text-decoration: none;
+  color: black;
+
+}
+
+.i_trigger:hover,.trigger:hover{
+  color: #cc0000;
+  text-decoration: none;
+  /*   width: 150px;
+     height: 157px;*/
+
+
+}
+
+.piece1, .piece2, .piece3, .piece4 {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+}
+
+.piece4 {
+  visibility: hidden;
+}
+
+.piece5 {
+  visibility: hidden;
+}
+
+
+.unvisible {
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.change {
+  margin-top: -1.5rem;
+}
+
+.change .piece1 {
+  //transition: transform 1s;
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .piece2 { transition: opacity 1s;}
+
+.change .piece3 {
+  //transition: transform 1s;
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+
+.change .piece4 {
+  //transition: transform 1s;
+  visibility: visible;
+  -webkit-transform: rotate(90deg) translate(-15px, -15px);
+  transform: rotate(90deg) translate(-20px, 1px);
+}
+
+.change .piece5 {
+  //transition: transform 1s;
+  visibility: visible;
+  -webkit-transform: rotate(225deg) translate(-8px, -8px);
+  transform: rotate(225deg) translate(-8px, -8px);
+}
+
+.clickable {
+  margin-right: 2rem;
+  display: inline-block;
+  cursor: pointer;
+  float: right !important;
+}
+
+
+.star {
+  width:  9rem;
+  height: 9rem;
+}
+
+
+

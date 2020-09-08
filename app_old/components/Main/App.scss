@@ -1,0 +1,111 @@
+.img {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+  width: 25rem !important;
+}
+
+
+.search-input {
+  float: left;
+  margin-left: 0.5rem;
+  width: 25%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAAXNSR0IArs4c6QAAAQJJREFUKBWVkr2uQUEUhf3ET6GRaC5aFRoJKrf1BKpb8SwqovYGXkCj00k0QnRKEYkILYobvpUYmeMMyVnJl7P3mjN7Zu9zwiGv2qRFyMMSRrAFp6JPN8XzBj+wgDkUYAg7WINTYdwpDECxrRLJHeq2accdkgm8bzTvNAg2EDOGeUYI1KNO1gkuzTA1g8T7ojbn4ONQWPuHPWgeHmnzCqoe15tkSNPgPEAn68oVcOmA2XMtGK9FoE/VhOTTVNExqLCGZnxCv2pYauEC6lF0oQxX6IOvb7yX9NPEQafan+aPXDdQC18LsO6Tip5BBY6gIQaSbnMCFRCBZRcIvFkbsvCr4AFGOCxQy+JdGQAAAABJRU5ErkJggg==");
+  background-color: white;
+  background-position: 10px 15px;
+  background-repeat: no-repeat;
+  padding: 10px 10px 6px 25px;
+}
+
+.search-input > input {
+  width: 100%;
+  font-size: 18px;
+  border: none;
+  line-height: 1px;
+  padding: 5px 10px 5px 10px;
+  height: 27.5px;
+  position: relative;
+}
+
+.search-input > input:focus {
+  outline: none;
+}
+
+footer {
+  border-top: solid #c0c0c0 medium;
+  position: absolute;
+  margin-top: 75% !important;
+  right: 0;
+  bottom: 0;
+  height: 175px;
+  width: 100%;
+  background-color: #f50057;
+  color: black;
+
+  font-weight: bolder;
+  transition: background-color 2s;
+  -webkit-transition: background-color 2s;
+}
+
+footer:hover {
+  background-color:   rgba(75,0,130, 0.9);;
+  color: #c0c0c0;
+  border-color: black;
+}
+
+
+.hand-writed {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 2rem;
+}
+
+.img-detail {
+  width: 20rem !important;
+}
+
+.react-paginate ul {
+  display: inline-block !important;
+
+}
+
+.react-paginate li {
+  font-size: 2rem;
+  display: inline-block !important;
+  text-transform: uppercase;
+  outline: none;
+  border: 0;
+  background-color: #673a9a;
+  line-height: 40px;
+  color: #fff;
+  margin: 10px;
+  cursor: pointer;
+  padding: 1rem;
+}
+
+.not-break-me {
+  display:inline-block !important;
+  text-decoration:underline !important;
+}
+
+.toolbar {
+  width: 400px !important;
+}
+
+.width-customize {
+  width: 35rem !important;
+}
+
+.title-card {
+  width: 20rem !important;
+  height: 27.5rem !important;
+}
+
+.orderImage {
+  margin: 10px;
+  width: 10rem !important;
+  height: 10rem !important;
+}

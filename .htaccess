@@ -1,0 +1,16 @@
+ # Handle Front Controller...
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.php [L]
+
+# C:\Users\Derid\Desktop\nginx-1.15.7\html\project\server\
+# SSLEngine on
+# SSLCertificateFile C://Users//Derid//Desktop//nginx-1.15.7//html//project//server//server.csr
+# SSLCertificateKeyFile C://Users//Derid//Desktop//nginx-1.15.7//html//project//server//server.key
+# SetEnvIf User-Agent ".*MSIE.*" nokeepalive ssl-unclean-shutdown
+
+# RewriteCond %{HTTPS} !=on
+# RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+

@@ -1,0 +1,38 @@
+
+.toast {
+  width: 200%;
+  background-color: transparent;
+  position: fixed !important;
+  overflow: visible !important;
+  top: -1rem;
+  text-align: center !important;
+  z-index: 9999999999999;
+  min-height: 50px;
+  max-height: 50px;
+  padding: 0 20px;
+  transform: translateX(-50%) translateY(150%);
+  transition: transform .35s ease;
+}
+
+.toast-text {
+  line-height: 3rem !important;
+  margin-left: 50% !important;
+}
+
+.toast-cancel {
+  font-size: 1.5rem;
+  float: right;
+  padding-right: 1rem;
+  cursor: pointer;
+}
+
+.toast.success {
+  background-color: rgba(50,205,50, 1) !important;
+
+}
+
+.toast .visible {
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.success p { color: #fff; }

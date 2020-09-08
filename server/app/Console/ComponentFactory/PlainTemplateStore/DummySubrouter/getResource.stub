@@ -1,0 +1,4 @@
+
+$router->get( API.'_generatedPath/{id}', function ($id, DummyController $dummyControl ){
+    $dummyControl->single($id);
+});

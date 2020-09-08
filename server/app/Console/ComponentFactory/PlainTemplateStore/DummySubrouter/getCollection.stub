@@ -1,0 +1,4 @@
+
+$router->get( API.'_generatedPath', function (DummyController $dummyControl ){
+    $dummyControl->index();
+});

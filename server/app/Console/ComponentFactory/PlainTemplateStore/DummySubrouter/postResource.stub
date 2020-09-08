@@ -1,0 +1,4 @@
+
+$router->post( API.'_generatedPath', function ( DummyController $dummyControl ){
+    $dummyControl->store();
+});

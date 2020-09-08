@@ -1,0 +1,4 @@
+
+$router->patch( API.'_generatedPath/{id}', function ($id, DummyController $dummyControl ){
+    $dummyControl->update($id);
+});

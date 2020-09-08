@@ -1,0 +1,24 @@
+#!/usr/bin/env php
+<?php
+
+require __DIR__.'/../vendor/autoload.php';
+
+use Symfony\Component\Console\Application;
+
+$application = new Application();
+
+use App\Console\GenerateCleanDatabaseCommand;
+use App\Console\ComponentFactory\GenerateMigrationClassCommand;
+use App\Console\ComponentFactory\GenerateModelClassCommand;
+use App\Console\ComponentFactory\GenerateSeedClassCommand;
+use App\Console\ComponentFactory\RunMigrationCommand;
+use App\Console\ComponentFactory\RunSeedCommand;
+
+$application->add(new GenerateCleanDatabaseCommand());
+$application->add(new GenerateMigrationClassCommand());
+$application->add(new GenerateModelClassCommand());
+$application->add(new GenerateSeedClassCommand());
+$application->add(new RunMigrationCommand());
+$application->add(new RunSeedCommand());
+
+$application->run();

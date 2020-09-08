@@ -1,0 +1,14 @@
+<?php
+
+namespace App\Database\Migrations\Submigrations;
+
+use App\Database\BaseMigration;
+
+class DummyMigration extends BaseMigration {
+
+    protected const TABLE = 'dummymodel';
+    protected $dataSchema = [];
+    protected static $columns = [];
+    protected static $validation = [];
+
+}

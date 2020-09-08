@@ -1,0 +1,7 @@
+<?php
+
+use App\Controllers\DummyController;
+
+$dummyModel = new DummyController(
+    //new \App\Models\DummyModel(new \App\Database\Connection())
+);

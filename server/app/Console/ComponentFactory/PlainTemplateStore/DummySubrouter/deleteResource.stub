@@ -1,0 +1,4 @@
+
+$router->delete( API.'_generatedPath/{id}', function ($id, DummyController $dummyControl ){
+    $dummyControl->erase($id);
+});

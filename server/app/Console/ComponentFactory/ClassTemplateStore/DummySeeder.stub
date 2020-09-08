@@ -1,0 +1,20 @@
+<?php
+
+namespace App\Database\Seeds\Subseeds;
+
+use App\Database\IBaseSeeder;
+use App\Models\DummyModel;
+use App\Database\Connection;
+
+class DummySeeder implements IBaseSeeder {
+
+    /**
+     * @throws \App\Errors\DatabaseException
+     */
+    public function run()
+    {
+        $dummy = new DummyModel(new Connection());
+        $dummy->create([ ])->finish();
+    }
+
+}
